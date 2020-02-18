@@ -1,0 +1,70 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    display: flex;
+    z-index: 10;
+}
+
+.nav-bar .logo-img{
+    width: auto;
+    height: auto;
+    background-color: #dddddd;
+    background-image: url("../img/henry/logo.png");
+    z-index: 15;
+}
+
+.nav-bar .logo{
+    justify-content:flex-start;
+    align-content: center;
+    left: 20px;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.nav-bar .nav-link{
+    justify-content:flex-end;
+    align-content: center;
+    right: 20;
+    display: flex;
+    flex-grow: 1;
+}
+
+.nav-link ul li{
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav-link ul li a:hover{
+    color: #3deb34;
+}
+.nav-link ul li a:visited{
+    color: none;
+}
+
+
+
+/* Container */
+.container{
+    top: 32px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
