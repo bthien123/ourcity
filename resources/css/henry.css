@@ -2,6 +2,11 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #eeeeee;
+}
+
+.btn{
+
 }
 
 .nav-bar{
@@ -25,8 +30,9 @@ body{
     justify-content:flex-start;
     align-content: center;
     left: 20px;
-    color: #fff;
+    color: #3deb34;
     font-size: 20px;
+    font-weight: 700;
     margin-top: 15px;
     margin-left: 20px;
 }
@@ -62,9 +68,13 @@ body{
 
 /* Container */
 .container{
-    top: 32px;
+    top: 64px;
     width: 80%;
     margin: auto;
     position: relative;
 }
 
+.container .heading{
+    color: #3deb34;
+    text-transform: capitalize;
+}
